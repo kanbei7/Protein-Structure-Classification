@@ -2,7 +2,7 @@
 ### Data
 [SCOPe 2.07](http://scop.berkeley.edu/astral/ver=2.07)
 
-### requirements
+### Requirements
 * python [>=3.6]
 * pytoch [>=0.4]
 * pandas
