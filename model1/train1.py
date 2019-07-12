@@ -155,7 +155,7 @@ def test(epoch_idx):
 	y_test = []
 	y_score = []
 	with torch.no_grad():
-		for b_idx, X, y in train_loader:
+		for b_idx, X, y in test_loader:
 			pred_scores = model(X)
 			y_test+=(y.tolist())
 			y_score+= pred_scores[:,1].tolist()
